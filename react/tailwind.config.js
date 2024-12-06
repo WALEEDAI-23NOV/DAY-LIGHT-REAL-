@@ -9,6 +9,9 @@ export default {
       colors: {
         'custom-dark-gray': '#090D15',
       },
+      backgroundImage: {
+        'hero-pattern': "url('/images/Hero.g')",
+      }
     },
   },
   plugins: [],
