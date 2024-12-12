@@ -3,7 +3,7 @@ import Nav from "../Nav/Nav";
 
 const Hero = () => {
   return (
-    <div className="w-full border bg-center border-indigo-600 bg-[url('/images/Hero.png')] h-[200px] sm:h-[300px] bg-[length:100%] sm:bg-cover  flex items-center  px-6 md:bg-contain md:h-[550px] md:flex md:items-center md:w-full lg:h-[730px] bg-no-repeat  lg:flex lg:items-center ">
+    <div className="w-full border bg-cover bg-center border-indigo-600 bg-[url('/images/Hero.png')] h-[200px] sm:h-[300px]  sm:bg-cover  flex items-center  px-6 md:bg-cover md:h-[550px] md:flex md:items-center md:w-full lg:h-[730px] bg-no-repeat  lg:flex lg:items-center ">
       <div className="fixed top-0 left-0 right-0">
         <Nav />
       </div>
