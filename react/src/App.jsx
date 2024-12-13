@@ -1,12 +1,14 @@
-
-import './App.css'
-import Hero from './Components/HERO/Hero'
+import "./App.css";
+import Hero from "./Components/HERO/Hero";
+import Platform from "./Components/Platforms/Platform";
 
 function App() {
-
   return (
-  <Hero/>
-  )
+    <>
+      <Hero />
+      <Platform />
+    </>
+  );
 }
 
-export default App
+export default App;
