@@ -1,4 +1,5 @@
 import "./App.css";
+import Charachters from "./Components/Chrachters/Charachters";
 import Hero from "./Components/HERO/Hero";
 import Platform from "./Components/Platforms/Platform";
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <Hero />
       <Platform />
+      <Charachters/>
     </>
   );
 }
