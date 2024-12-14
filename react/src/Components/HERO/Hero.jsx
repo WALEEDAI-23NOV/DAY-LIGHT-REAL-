@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="fixed top-0 left-0 right-0">
           <Nav />
         </div>
-        <div className="  bottom-4   gap-3 lg:gap-8 md:gap-5 sm:gap-3 sm:bottom-6 flex flex-col justify-center md:flex md:mt-36  relative  w-[400px] sm:w-[450px] md:w-[530px] lg:w-[670px] ">
+        <div className="  bottom-4   gap-3 lg:gap-8 md:gap-5 sm:gap-3 sm:bottom-6 flex flex-col justify-center md:flex md:mt-36  relative  w-[350px] sm:w-[430px] md:w-[530px] lg:w-[670px] ">
           <img className="" src="/images/Dead.png" alt="" />
           <p className="text-white text-[13px] lg:w-[580px] lg:text-lg md:text-base md:w-[500px]">
             Em Dead by Daylight, persiga, corte e sacrifique sua presa como um
