@@ -13,7 +13,7 @@ const Hero = () => {
           <p className="text-white text-[13px] lg:w-[580px] lg:text-lg md:text-base md:w-[500px]">
             Em Dead by Daylight, persiga, corte e sacrifique sua presa como um
             assassino monstruoso ou junte-se a uma equipe de quatro
-            sobreviventes astutos trabalhando juntos para escapare.
+            sobreviventes astutos trabalhando juntos para escapar.
           </p>
           <div className="w-full flex justify-center md:justify-start">
             <button className="lg:w-72 lg:h-14 md:w-64 md:h-10 h-8 w-40   bg-[#80080a] text-white  ">
