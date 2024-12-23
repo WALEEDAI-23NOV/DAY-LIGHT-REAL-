@@ -3,7 +3,7 @@ import React from "react";
 const Nav = () => {
   return (
     <>
-      <div className=" w-full bg-[#090D15] h-14 px-6 opacity-70 md:h-20  flex items-center absolute md:px-10   ">
+      <div className=" w-full bg-[#090D15] z-1 h-14 px-6 opacity-70 md:h-20  flex items-center absolute md:px-10   ">
         <div className="flex justify-center items-center">
           <img className="h-8 md:h-10 lg:h-11" src="/images/logo.png" alt="" />
         </div>
