@@ -2,7 +2,7 @@ import React from "react";
 
 const Charachters = () => {
   return (
-    <div className="flex flex-col lg:flex-row gap-4 p-6 lg:p-2 bg-[#090d15] text-white">
+    <div className="flex flex-col lg:flex-row gap-4 p-6 lg:py-6 bg-[#090d15] text-white">
     <div className="flex-1 bg-[url('/images/Charachter-bg.png')] bg-cover bg-center rounded-lg p-6 shadow-lg">
       <h1 className="text-xl md:text-2xl lg:text-3xl  mb-14 text-center lg:text-center">
       Play as<br />A Killer (Solo)

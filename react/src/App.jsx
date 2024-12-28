@@ -2,6 +2,7 @@ import "./App.css";
 import Charachters from "./Components/Chrachters/Charachters";
 import Hero from "./Components/HERO/Hero";
 import Platform from "./Components/Platforms/Platform";
+import Allcharachters from "./Components/See Chrachters/Allcharachters";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Hero />
       <Platform />
       <Charachters/>
+      <Allcharachters/>
     </>
   );
 }
