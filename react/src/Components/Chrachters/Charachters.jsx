@@ -8,7 +8,7 @@ const Charachters = () => {
       Play as<br />A Killer (Solo)
       </h1>
       <div className="grid grid-cols-2 gap-4">
-        <div className="flex flex-col bg-center bg-cover bg-no-repeat bg-[url('/images/Charachter-ghost-bg.png')] items-center">
+        <div className="flex flex-col bg-center bg-cover bg-no-repeat bg-[url('/images/Charachter-ghost-bg.png')] rounded-xl items-center">
           <div className="flex flex-col relative h-full justify-end md:w-full items-center mt-auto">
             <img
               src="images/ghost.png"
@@ -19,7 +19,7 @@ const Charachters = () => {
             
           </div>
         </div>
-        <div className="flex flex-col bg-center  bg-contain bg-no-repeat bg-[url('/images/Charachter-donkey-bg.png')] items-center">
+        <div className="flex flex-col bg-center  bg-contain bg-no-repeat bg-[url('/images/Charachter-donkey-bg.png')] rounded-xl items-center">
           <div className="flex relative flex-col h-full justify-end md:w-full items-center mt-auto">
             <img
               src="images/donkey.png"
@@ -37,7 +37,7 @@ const Charachters = () => {
       Play as<br />A survivor(Co-op)
       </h1>
       <div className="grid grid-cols-2 gap-4">
-        <div className="flex flex-col bg-center bg-cover bg-no-repeat bg-[url('/images/Charachter-bg2.png')] items-center">
+        <div className="flex flex-col bg-center bg-cover bg-no-repeat bg-[url('/images/Charachter-bg2.png')] rounded-xl items-center">
           <div className="flex flex-col relative h-full justify-end md:w-full items-center mt-auto">
             <img
               src="images/Residentevil.png"
@@ -47,7 +47,7 @@ const Charachters = () => {
             <img className="absolute w-[150px] sm:w-[200px]  md:w-[250px] lg:w-[230px]" src="/images/residentevil-text.png" alt="" />
           </div>
         </div>
-        <div className="flex flex-col bg-center bg-cover bg-no-repeat bg-[url('/images/Charachter-bg3.png')] items-center">
+        <div className="flex flex-col bg-center bg-cover bg-no-repeat bg-[url('/images/Charachter-bg3.png')] rounded-xl items-center">
           <div className="flex flex-col relative h-full justify-end items-center md:w-full mt-auto">
             <img
               src="images/silenthill.png"
