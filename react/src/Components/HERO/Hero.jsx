@@ -5,8 +5,8 @@ const Hero = () => {
   return (
     <div className="w-full   bg-cover bg-center z-1  items-end sm:items-end  sm:flex justify-center md:items-center md:justify-start  md:bg-[url('/images/Hero.png')] bg-[url('/images/Mobile.png')]  h-[100vh] sm:h-[100vh]  sm:bg-cover sm:bg-center  flex  md:bg-cover md:h-[550px]  md:w-full lg:h-[730px] bg-no-repeat  lg:flex lg:items-center ">
       <div className="bg-[url('/images/Background.png')] lg:mx-0 my-0 w-full bg-cover bg-center z-0  items-end sm:items-end  sm:flex justify-center md:items-center md:justify-start  sm:px-8 md:px-10   h-[100vh] sm:h-[100vh]  sm:bg-cover sm:bg-center  flex  md:bg-cover md:h-[550px]  md:w-full lg:h-[730px] bg-no-repeat  lg:flex lg:items-center">
-        <div className="fixed top-0 left-0 right-0 z-10">
-          <Nav />
+        <div className="fixed  top-0 left-0 right-0 z-10">
+          <Nav/>
         </div>
         <div className="  bottom-4   gap-3 lg:gap-8 md:gap-5 sm:gap-3 sm:bottom-6 flex flex-col justify-center md:flex md:mt-36  relative  w-[350px] sm:w-[430px] md:w-[530px] lg:w-[670px] ">
           <img className="" src="/images/Dead.png" alt="" />

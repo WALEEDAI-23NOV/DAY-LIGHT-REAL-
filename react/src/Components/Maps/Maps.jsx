@@ -1,29 +1,68 @@
-import React from 'react'
+import React from "react";
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 const Maps = () => {
   const slides = [
     {
       id: 1,
-      image: "/images/map-1.png", 
+      image: "/images/map-1.png",
       caption: "Raccoon City",
     },
-   
+    {
+      id: 2,
+      image: "/images/map-2.png",
+      caption: "Ormond",
+    },
+    {
+      id: 3,
+      image: "/images/map-3.png",
+      caption: "Léry Memorial Institute",
+    },
+    {
+      id: 4,
+      image: "/images/map-4.png",
+      caption: "Autohaven Junkyard",
+    },
+    {
+      id: 5,
+      image: "/images/map-5.png",
+      caption: "Backwater Swamp",
+    },
+    {
+      id: 6,
+      image: "/images/map-6.png",
+      caption: "Crotus prenn hospice",
+    },
+    {
+      id: 7,
+      image: "/images/map-7.png",
+      caption: "Forest shelter",
+    },
+    {
+      id: 8,
+      image: "/images/map-8.png",
+      caption: "gideon meat packaging factory",
+    },
+    {
+      id: 9,
+      image: "/images/map-9.png",
+      caption: "Springhood",
+    },
   ];
   return (
-    <div className="bg-black text-white sm:py-16 flex flex-col items-center">
-      <h1 className="text-2xl font-bold mb-6">Explore mais de 15 mapas de arrepiar</h1>
-      
-      <div className="w-full max-w-4xl">
+    <div className="bg-[#090d15] relative text-white py-16 flex flex-col items-center">
+      <h1 className="md:text-4xl text-2xl mb-8">
+        Explore mais de 15 mapas de arrepiar
+      </h1>
+
+      <div className=" w-full px-9 sm:w-full">
         <Slide
-          duration={3000}
-          transitionDuration={500}
+          duration={2000}
+          transitionDuration={1000}
           infinite
           arrows
           autoplay
-          indicators={(index) => (
-            <div className="w-2 h-2 bg-gray-500 rounded-full mx-1"></div>
-          )}
+          
         >
           {slides.map((slide) => (
             <div key={slide.id} className="relative">
@@ -33,7 +72,7 @@ const Maps = () => {
                 className="w-full h-auto object-cover rounded-lg shadow-lg"
               />
 
-              <p className="absolute bottom-4 left-4 bg-black bg-opacity-50 px-4 py-2 text-lg font-semibold rounded">
+              <p className="absolute bottom-4 left-4 bg-black bg-opacity-50 px-4 py-2 text-sm sm:texl-lg font-semibold rounded">
                 {slide.caption}
               </p>
             </div>
@@ -41,7 +80,7 @@ const Maps = () => {
         </Slide>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Maps
+export default Maps;
