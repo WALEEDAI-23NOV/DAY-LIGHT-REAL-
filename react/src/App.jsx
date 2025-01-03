@@ -1,4 +1,5 @@
 import "./App.css";
+import Disclaimer from "./Components/18+/Disclaimer";
 import Charachters from "./Components/Chrachters/Charachters";
 import Hero from "./Components/HERO/Hero";
 import Maps from "./Components/Maps/Maps";
@@ -15,6 +16,7 @@ function App() {
       <Allcharachters/>
       <Maps/>
       <Playtoday/>
+      <Disclaimer/>
     </>
   );
 }
