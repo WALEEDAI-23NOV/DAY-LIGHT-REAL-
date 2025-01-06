@@ -1,22 +1,18 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import "./App.css";
-import Disclaimer from "./Components/18+/Disclaimer";
-import Charachters from "./Components/Chrachters/Charachters";
-import Hero from "./Components/HERO/Hero";
-import Maps from "./Components/Maps/Maps";
-import Platform from "./Components/Platforms/Platform";
-import Playtoday from "./Components/Play-today/Playtoday";
-import Allcharachters from "./Components/See Chrachters/Allcharachters";
+import Home from "./Components/Home";
+import Nav from "./ComponentsChrachters/Nav";
+
 
 function App() {
   return (
     <>
-      <Hero />
-      <Platform />
-      <Charachters/>
-      <Allcharachters/>
-      <Maps/>
-      <Playtoday/>
-      <Disclaimer/>
+     <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Nav" element={<Nav />} />
+      </Routes>
+    </Router>
     </>
   );
 }

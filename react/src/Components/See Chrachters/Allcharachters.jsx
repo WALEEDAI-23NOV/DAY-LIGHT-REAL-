@@ -1,6 +1,11 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const Allcharachters = () => {
+  const navigate = useNavigate();
+  const handleButtonClick = () => {
+    navigate('/Nav'); 
+  };
   return (
     <div className=" w-full h-[140px]  md:h-[180px] lg:h-[158px] flex   justify-center items-center">
       <div className=" h-26 md:gap-3 sm:h-32  w-[400px]   sm:w-[600px] md:w-[750px] md:h-32 lg:w-[1100px] flex  flex-col md:flex-col justify-center items-center">
@@ -9,7 +14,7 @@ const Allcharachters = () => {
           The only game where the biggest horror franchises collide
           </h1>
         </div>
-        <button className=" lg:px-14 lg:py-2 px-4 py-2 mt-2 md:px-12 md:py-2   bg-[#80080a] text-white  ">
+        <button onClick={handleButtonClick} className=" lg:px-14 lg:py-2 px-4 py-2 mt-2 md:px-12 md:py-2   bg-[#80080a] text-white  ">
           See all characters
         </button>
       </div>
