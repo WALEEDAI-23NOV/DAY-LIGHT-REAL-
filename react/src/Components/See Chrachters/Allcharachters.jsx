@@ -14,7 +14,7 @@ const Allcharachters = () => {
           The only game where the biggest horror franchises collide
           </h1>
         </div>
-        <button onClick={handleButtonClick} className=" lg:px-14 lg:py-2 px-4 py-2 mt-2 md:px-12 md:py-2   bg-[#80080a] text-white  ">
+        <button onClick={handleButtonClick} className=" lg:px-14 lg:py-2 px-4 py-2 mt-2 md:px-12 md:py-2 hover:bg-[#691617]   bg-[#80080a] text-white  ">
           See all characters
         </button>
       </div>

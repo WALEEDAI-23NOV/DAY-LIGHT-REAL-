@@ -15,7 +15,7 @@ const Nav = () => {
         </div>
       </div>
       <div className=" relative flex justify-end right-6 top-2 md:top-4 lg:top-4">
-      <button  onClick={handleButtonClick} className="h-10  px-4 md:h-11 md:px-6 md:py-2 py-2 lg:h-12 lg:py-3 lg:px-8  bg-[#80080a] justify-center items-center text-white text-base font-semibold  font-['Source Sans Pro'] leading-normal ">
+      <button  onClick={handleButtonClick} className="h-10 hover:bg-[#691617]  px-4 md:h-11 md:px-6 md:py-2 py-2 lg:h-12 lg:py-3 lg:px-8  bg-[#80080a] justify-center items-center text-white text-base font-semibold  font-['Source Sans Pro'] leading-normal ">
         Play now
       </button>
       </div>

@@ -39,7 +39,7 @@ const Playtoday = () => {
             </h3>
           </div>
           <div className="flex pt-4 sm:py-3 md:pt-5 lg:pt-7  flex-row ">
-            <button className="h-7  px-6 sm:h-8 sm:px-7 md:h-10 md:px-10 py-1  lg:h-10 lg:px-14 lg:text-base  bg-[#80080a] justify-center items-center text-white text-xs font-semibold  font-['Source Sans Pro'] leading-normal ">
+            <button className="h-7 hover:bg-[#691617]  px-6 sm:h-8 sm:px-7 md:h-10 md:px-10 py-1  lg:h-10 lg:px-14 lg:text-base  bg-[#80080a] justify-center items-center text-white text-xs font-semibold  font-['Source Sans Pro'] leading-normal ">
               Play now
             </button>
           </div>

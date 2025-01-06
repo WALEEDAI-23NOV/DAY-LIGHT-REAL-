@@ -16,7 +16,7 @@ const Hero = () => {
             sobreviventes astutos trabalhando juntos para escapar.
           </p>
           <div className="w-full flex justify-center md:justify-start">
-            <button className="lg:w-72 lg:h-14 md:w-64 md:h-10 h-8 w-40   bg-[#80080a] text-white  ">
+            <button className="lg:w-72 hover:bg-[#691617] lg:h-14 md:w-64 md:h-10 h-8 w-40   bg-[#80080a] text-white  ">
               Buy the main game
             </button>
           </div>
