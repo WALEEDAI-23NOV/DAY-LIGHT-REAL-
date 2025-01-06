@@ -2,7 +2,7 @@ import React from "react";
 
 const Playtoday = () => {
   return (
-    <div className="bg-[#090d15]  flex py-8 items-center  text-white">
+    <div className="bg-[#090d15]  flex md:py-8 items-center  text-white">
       <div className="w-full h-auto bg-cover sm:bg-cover flex flex-row  bg-center bg-[url('/images/play-today.png')] bg-no-repeat justify-center items-center">
         <div className="text-white px-6 sm:px-10 ">
           <h1 className=" leading-tight sm:leading-tight md:leading-tight lg:leading-tight text-2xl w-[230px]  sm:text-4xl sm:w-[300px] md:text-4xl md:w-[330px] lg:text-6xl lg:w-[500px]">

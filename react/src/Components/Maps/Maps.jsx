@@ -50,7 +50,7 @@ const Maps = () => {
     },
   ];
   return (
-    <div className="bg-[#090d15] relative text-white py-16 flex flex-col items-center">
+    <div className="bg-[#090d15] relative text-white pb-12 pt-3 md:py-16 flex flex-col items-center">
       <h1 className="md:text-4xl text-2xl mb-8">
         Explore mais de 15 mapas de arrepiar
       </h1>
