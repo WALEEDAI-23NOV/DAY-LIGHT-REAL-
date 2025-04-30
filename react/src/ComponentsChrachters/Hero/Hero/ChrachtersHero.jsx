@@ -17,7 +17,7 @@ const ChrachtersHero = () => {
       />
 
       {/* Left Column */}
-      <div className="flex flex-col gap-4 md:gap-8 border justify-center items-center sm:items-start px-6 md:px-12 h-full">
+      <div className="flex flex-col gap-4 md:gap-8  justify-center items-center sm:items-start px-6 md:px-12 h-full">
         <h1 className="text-white pt-8 text-5xl sm:text-6xl lg:text-7xl font-semibold text-center sm:text-left">
           Escolha seu lado
         </h1>
@@ -31,7 +31,7 @@ const ChrachtersHero = () => {
         </div>
 
         {/* Search Input Field */}
-        <div className="flex items-center border rounded w-full max-w-[390px] px-4 py-2 md:mt-4">
+        <div className="flex items-center  rounded w-full max-w-[390px] px-4 py-2 md:mt-4">
           <input
             type="text"
             placeholder="Pesquise personagens"
@@ -46,7 +46,7 @@ const ChrachtersHero = () => {
       </div>
 
       {/* Right Column */}
-      <div className="flex justify-center border items-center h-full">
+      <div className="flex justify-cente items-center h-full">
         <img
           src="/images/Hero-charachters.png"
           alt=""
